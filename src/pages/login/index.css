@@ -1,0 +1,23 @@
+.react-toggle--checked .react-toggle-track {
+    background-color: #000000;
+  }
+  
+  .react-toggle--checked .react-toggle-thumb {
+    border-color: #000000;
+  }
+  
+  .react-toggle--unchecked .react-toggle-track {
+    background-color: #000000;
+  }
+  
+  .react-toggle--unchecked .react-toggle-thumb {
+    border-color: #000000;
+  }
+
+.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
+    background-color: #555; /* Cambia este color al que desees para el hover */
+}
+
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+    background-color: #555; /* Cambia este color al que desees para el hover cuando está checked */
+}
